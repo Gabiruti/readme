@@ -21,12 +21,13 @@ Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos 
 # Resolvendo Problemas
 Esta seção aborda possiveis problemas durante o processo de configuração do ambiente.
 
-## Problema com biblioteca de conexão com o Postgres do PHP
+## Problemas com a Biblioteca de Conexão com o Postgres no PHP
 
-* Vá a pasta em que o PHP está instalado.
-* Na pasta apache2, abra o arquivo php.ini.
-* Descomente as linhas extension=pdo_pgsql
+Para resolver problemas de conexão com o Postgres no PHP, siga estas etapas:
 
-***Nota:** Esse problema pode acontecer com qualquer biblioteca, sempre for necessário habilitar uma nova o mesmo processo deve ser executado,
-basta descomentar outras linhas.
+1. Navegue até a pasta de instalação do PHP.
+2. Localize a pasta 'apache2' e abra o arquivo 'php.ini'.
+3. Descomente a linha 'extension=pdo_pgsql'.
+
+***Nota:** Este problema pode surgir com outras bibliotecas. Sempre que for necessário habilitar uma nova, repita o mesmo processo descomentando as linhas relevantes no arquivo 'php.ini'.***
 
