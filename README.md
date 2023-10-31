@@ -6,6 +6,7 @@ configurar as ferramentas necessárias e preparar o ambiente de desenvolvimento.
 Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos os cadastros utilizando o e-mail disponibilizado.
 
 ## Requisitos
+* Umbler
 * Bitbucket
 * Jira
 * Slack
@@ -13,10 +14,13 @@ Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos 
 # Configurando o Ambiente
 
 ## Requisitos
-* Git
 * Node
 * Yarn
 * Postgres
+* PHP (versão 7.4.3)
+* VsCode
+* DBeaver
+* Angular cli
 
 # Resolvendo Problemas
 Esta seção aborda possiveis problemas durante o processo de configuração do ambiente.
