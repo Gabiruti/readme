@@ -11,6 +11,16 @@ Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos 
 * Jira
 * Slack
 
+## Etapas
+Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferramentas listadas acima.
+
+* O registro do Jira e Bitbucket é o mesmo, use o mesmo login para ambos.
+
+### Registrando chave ssh
+1. Execute o comando `ssh-keygen -t rsa` para gerar a chave, pode pressionar enter em todas as etapas.
+2. use code
+
+
 # Configurando o Ambiente
 
 ## Requisitos
@@ -22,8 +32,12 @@ Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos 
 * DBeaver
 * Angular cli
 
+  ## Etapas
+  Si
+
+
 # Resolvendo Problemas
-Esta seção aborda possiveis problemas durante o processo de configuração do ambiente.
+Esta seção aborda possíveis problemas durante o processo de configuração do ambiente.
 
 ## Problemas com a Biblioteca de Conexão com o Postgres no PHP
 
