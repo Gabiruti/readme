@@ -31,9 +31,10 @@ Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferram
 * VsCode
 * DBeaver
 * Angular cli
+* Git
 
   ## Etapas
-  Si
+  
 
 
 # Resolvendo Problemas
