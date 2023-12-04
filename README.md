@@ -22,6 +22,7 @@ Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferram
 
 
 # Configurando o Ambiente
+Esta seção aborda as ferramentas de desenvolvimento que são utilizadas na empresa.
 
 ## Requisitos
 * Node
@@ -33,9 +34,10 @@ Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferram
 * Angular cli
 * Git
 
-  ## Etapas
-  
-
+## Instruções
+* Instale as ferramentas essenciais seguindo as instruções específicas de cada uma.
+* Se enfrentar problemas, consulte a seção "Resolvendo Problemas" para orientações.
+* Recomendamos a utilização do ChatGPT para uma configuração rápida e suporte personalizado. Se encontrar dificuldades, o ChatGPT está disponível para ajudar durante o processo de configuração.
 
 # Resolvendo Problemas
 Esta seção aborda possíveis problemas durante o processo de configuração do ambiente.
@@ -49,4 +51,27 @@ Para resolver problemas de conexão com o Postgres no PHP, siga estas etapas:
 3. Descomente a linha 'extension=pdo_pgsql'.
 
 ***Nota:** Este problema pode surgir com outras bibliotecas. Sempre que for necessário habilitar uma nova, repita o mesmo processo descomentando as linhas relevantes no arquivo 'php.ini'.***
+
+## Alterando senha do postgres
+execute os comandos:
+1. `sudo -u postgres psql`
+2. `ALTER USER postgres PASSWORD '123456';`
+
+## Adicionando bitbucket ao Known Hosts
+execute as etapas:
+1. cd ~/.ssh/
+2. code known_hosts
+3. Apagar conteúdo do arquivo
+4. ssh-keyscan -t rsa bitbucket.org >> ~/.ssh/known_hosts
+
+
+
+
+
+
+
+
+
+
+
 
