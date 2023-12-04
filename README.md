@@ -25,9 +25,9 @@ Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferram
 Esta seção aborda as ferramentas de desenvolvimento que são utilizadas na empresa.
 
 ## Requisitos
-* Node
+* Node (versão 14+)
 * Yarn
-* Postgres
+* Postgres (versão 14)
 * PHP (versão 7.4.3)
 * DBeaver
 * Angular cli
