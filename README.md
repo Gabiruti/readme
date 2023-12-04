@@ -10,6 +10,7 @@ Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos 
 * Bitbucket
 * Jira
 * Slack
+* VsCode
 
 ## Etapas
 Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferramentas listadas acima.
@@ -20,7 +21,6 @@ Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferram
 1. Execute o comando `ssh-keygen -t rsa` para gerar a chave, pode pressionar enter em todas as etapas.
 2. use code
 
-
 # Configurando o Ambiente
 Esta seção aborda as ferramentas de desenvolvimento que são utilizadas na empresa.
 
@@ -29,7 +29,6 @@ Esta seção aborda as ferramentas de desenvolvimento que são utilizadas na emp
 * Yarn
 * Postgres
 * PHP (versão 7.4.3)
-* VsCode
 * DBeaver
 * Angular cli
 * Git
