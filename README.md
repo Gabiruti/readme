@@ -56,6 +56,13 @@ execute os comandos:
 1. `sudo -u postgres psql`
 2. `ALTER USER postgres PASSWORD '123456';`
 
+## Subindo Base de Dados
+1. Após configurar o post, crie um novo db com o nome de db_core.
+2. Crie um novo usuário com acesso a todas as ações no banco (passo opcional).
+3. Pelo terminal, acesse a pasta dumps/dev no projeto, nela estarão todas as versões do banco já geradas.
+4. Execute o comando:
+  `pg_restore -h localhost -p 5432 --dbname=db_core --username=USER_QUE_VOCÊ_CRIOU --verbose NOME_DA_VERSÃO_DO_BANCO_MAIS_RECENTE`
+
 ## Adicionando bitbucket ao Known Hosts
 execute as etapas:
 1. cd ~/.ssh/
