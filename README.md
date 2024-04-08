@@ -1,6 +1,6 @@
 # Iniciando na UItecnologia
   Neste documento, você encontrará as etapas para iniciar o desenvolvimento, divididas em duas partes: 
-configurar as ferramentas necessárias e preparar o ambiente de desenvolvimento. Este guia foi criado usando do linux OS, caso você esteja utilizando window, algumas etapas/processos pode ser diferentes dos mencionados aqui.
+configurar as ferramentas necessárias e preparar o ambiente de desenvolvimento. Este guia foi criado usando do linux OS, caso você esteja utilizando window, algumas etapas/processos podem ser diferentes dos mencionados aqui.
 
 # Configurando Ferramentas
 Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos os cadastros utilizando o e-mail disponibilizado.
