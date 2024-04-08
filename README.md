@@ -1,6 +1,6 @@
 # Iniciando na UItecnologia
   Neste documento, você encontrará as etapas para iniciar o desenvolvimento, divididas em duas partes: 
-configurar as ferramentas necessárias e preparar o ambiente de desenvolvimento.
+configurar as ferramentas necessárias e preparar o ambiente de desenvolvimento. Este guia foi criado usando do linux OS, caso você esteja utilizando window, algumas etapas/processos pode ser diferentes dos mencionados aqui.
 
 # Configurando Ferramentas
 Nesta seção, abordaremos todas as ferramentas utilizadas na empresa e faremos os cadastros utilizando o e-mail disponibilizado.
@@ -19,7 +19,8 @@ Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferram
 
 ### Registrando chave ssh
 1. Execute o comando `ssh-keygen -t rsa` para gerar a chave, pode pressionar enter em todas as etapas.
-2. use code
+2. use code no caminho em que a chave publica foi criada (a chave publica termina com .pub) e copie o conteudo.
+3. Acesse o bitbucket e registre sua chave ssh.
 
 # Configurando o Ambiente
 Esta seção aborda as ferramentas de desenvolvimento que são utilizadas na empresa.
