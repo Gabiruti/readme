@@ -19,7 +19,7 @@ Após receber o e-mail da empresa, acesse o Umbler e faça o registro nas ferram
 
 ### Registrando chave ssh
 1. Execute o comando `ssh-keygen -t rsa` para gerar a chave, pode pressionar enter em todas as etapas.
-2. use code no caminho em que a chave publica foi criada (a chave publica termina com .pub) e copie o conteudo.
+2. use `code PATH` no caminho em que a chave publica foi criada (a chave publica termina com .pub) e copie o conteudo.
 3. Acesse o bitbucket e registre sua chave ssh.
 
 # Configurando o Ambiente
